@@ -133,8 +133,3 @@ nav li:hover{
 ::-webkit-scrollbar-thumb:hover {
     background: darkgray; 
   }
-
-::-webkit-scrollbar-track-piece {
-    border-radius: 20px;
-    width: 30px;
-}

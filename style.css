@@ -122,14 +122,12 @@ nav li:hover{
     border-radius: 10px;
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
     background: lightgray;
     box-shadow: inset 0 0 5px #dddddd;
     border-radius: 20px;
   }
 
-  /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: darkgray; 
   }

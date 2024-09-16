@@ -91,7 +91,7 @@ nav > ul{
     font-size: 1.4rem;
     
     a{
-        color: black;
+        color: rgb(71, 71, 71);
         text-decoration: none;
         object-position: center;
     }

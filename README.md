@@ -8,4 +8,4 @@ Wave gav contrast error på grund av bilden så jag gjorde "overlayen" som dimma
 
 Blev lite scaling problem med bilden på mindre skärmar så jag ändrade bildens storlek litegrann och lade till en media query för hero texten
 
-När jag gör en hård inläsning och tömmer cachen så tar det ~50-70ms, jag hade en gång som det tog mycket längre (~500ms) men kan inte replikera det. 
+När jag gör en hård inläsning och tömmer cachen med no throttling så tar det ~50-70ms, jag hade en gång som det tog mycket längre (~500ms) men kan inte replikera det. 

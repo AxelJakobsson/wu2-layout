@@ -40,15 +40,17 @@ footer {
 }
 
 
+
+
+.hero-grid > * {
+        grid-area: stack;
+    }
 .hero-grid {
     display: grid;
     grid-template-areas: "stack";
+}
 
-    > * {
-        grid-area: stack;
-    }
-    
-    .overlay {
+.hero-grid .overlay {
         background: rgba(0, 0, 0, 0.4);
         top: 0;
         left: 0;
@@ -57,23 +59,22 @@ footer {
     }
 
 
-    h1, p {
+.hero-grid h1, .hero-grid p {
         z-index: 1;
         font-size: 4rem;
         color: white;
         padding: 2rem;
     }
 
-    p {
+.hero-grid p {
         font-size: 2rem;
     }
 
-    img {
+.hero-grid img {
         width: 100%;
         max-height: 60vh;
         object-fit: cover;
     }
-}
 
 nav > ul{
 
@@ -88,20 +89,20 @@ nav > ul{
     font-weight: 500;
 
     font-size: 1.4rem;
+}
     
-    a{
+nav > ul a{
         color: rgb(71, 71, 71);
         text-decoration: none;
         object-position: center;
-    }
+}
 
-    a:hover{
+nav > ul a:hover{
         text-decoration: underline;
-    }
+}
 
-    img {
+nav > ul img {
         height: 5rem;
-    }
 }
 
 nav li {
